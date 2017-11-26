@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!--
+        Chrome for Android
+
+    The Chrome team has recently implemented a feature that tells the browser to launch the page fullscreen when the user has added it to the home screen. It is similar to the iOS Safari model.
+        -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="stylesheet" href="jqm/jquery.mobile-1.4.3.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/fb.css" />
+        <script src="jqm/jquery-1.11.1.min.js"></script>
+        <script src="jqm/jquery.mobile-1.4.3.min.js"></script>
+        <title>會員資料</title>
+    </head>
+    <body class="bgHtml">
+        <!-- page about start -->
+        <div data-role="page" id="p_exocard">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#nav-panel" id="nav-panel" data-icon="carat-l" data-iconpos="notext" onclick="location.href ='index.html'"></a>
+                <h1>會員資料</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img class="old" src="img/old.jpg">
+                <ul class="fb">
+                    <li><span><img class="code" src="img/barCode.png">身分證字號：</span>E120466876</li>
+                    <li><img class="love" src="img/a.png">目前點數：服務點數0點</li>
+                </ul>
+            </div><!-- end of ui-content-->
+        </div>
+        <!--end of page home-->
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

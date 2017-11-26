@@ -1,0 +1,25 @@
+.fb li{
+	width: 100%;
+	height: 70px;
+    display: block;
+    line-height: 77px;
+    padding-left: 12px;
+}
+.love{
+	width: 22px !important;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.old{
+	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    line-height: 30px;
+    display: block;
+    vertical-align: middle;
+}
+.code{
+	width: 22px !important;
+    line-height: 30px;
+    vertical-align: middle;
+}

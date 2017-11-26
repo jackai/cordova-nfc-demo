@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!--
+        Chrome for Android
+
+    The Chrome team has recently implemented a feature that tells the browser to launch the page fullscreen when the user has added it to the home screen. It is similar to the iOS Safari model.
+        -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="stylesheet" href="jqm/jquery.mobile-1.4.3.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+         <link rel="stylesheet" type="text/css" href="css/login.css" />
+        <script src="jqm/jquery-1.11.1.min.js"></script>
+        <script src="jqm/jquery.mobile-1.4.3.min.js"></script>
+        <title>登入驗證</title>
+    </head>
+    <body>
+        <!-- page about start -->
+        <div class="bgHtml" data-role="page" id="p_exocard">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#nav-panel" id="nav-panel" data-icon="carat-l" data-iconpos="notext" onclick="location.href ='index.html'"></a>
+                <h1>登入</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img class="cardPhoto" src="img/card.png">
+                <a class="btnPostion" onclick="location.href ='scaning.html'">掃描身分證登入</a>
+            </div><!-- end of ui-content-->
+        </div>
+        <!--end of page home-->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

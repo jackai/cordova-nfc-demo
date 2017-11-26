@@ -1,0 +1,26 @@
+img{
+	width: 350px;
+	height: 250px;
+	margin-top: 30%;
+}
+.btnPostion{
+	background: #66aeaa;
+	color: white !important;
+	width: 100%;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	text-decoration: none;
+	padding: 10px 16px;
+	margin-bottom: 0px;
+	bottom: 0;
+	position: absolute;
+	font-family: "微軟正黑體";
+}
+/*.bgHtml{
+	background:url('/img/loginBg.png') repeat; 
+}*/
+.bgHtml{
+	width: 100%;
+    background: url('../img/login_back.gif') repeat left top;
+}
